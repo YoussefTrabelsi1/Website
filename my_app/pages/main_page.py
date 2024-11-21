@@ -9,12 +9,11 @@ def render_main_page():
 
     langage=render_side_bar()
     
-    about_section(langage)
 
     st.header("Projects")
 
     # Displaying the grid of projects using the widget
-    render_projects(langage)
+    render_projects()
 
     st.header("Contact Me")
     
