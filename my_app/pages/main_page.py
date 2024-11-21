@@ -10,7 +10,7 @@ def render_main_page():
     langage=render_side_bar()
     
 
-    st.header("Projects")
+    st.subheader("Projects : ")
 
     # Displaying the grid of projects using the widget
     render_projects()
