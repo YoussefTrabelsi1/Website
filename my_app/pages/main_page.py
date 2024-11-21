@@ -1,6 +1,21 @@
 import streamlit as st
+from my_app.widgets.project_grid import render_projects
+from my_app.widgets.sidebar import render_side_bar
+from my_app.widgets.about import about_section
 
-def contact_page():
+
+def render_main_page():
+    
+
+    langage=render_side_bar()
+    
+    about_section(langage)
+
+    st.header("Projects")
+
+    # Displaying the grid of projects using the widget
+    render_projects(langage)
+
     st.header("Contact Me")
     
     # Displaying contact information
