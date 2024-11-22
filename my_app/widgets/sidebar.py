@@ -6,17 +6,6 @@ from my_app.tools.edit_image import crop_to_circle
 
 def render_side_bar():
 
-    """ # pages = ["Transcription", "Summaries", "Resume"]
-    pages = ["Transcription", "Compte-rendu", "Affichage des Comptes Rendus"]
-    page_icons = ["person-fill-slash", "file-earmark-arrow-up-fill", "database-fill", "chat-square-text-fill"]
-
-    with st.sidebar:
-        favicon_html = f'''
-        <div style="display: flex; justify-content: center; align-items: center; height: 100px; margin-top: -15px ">
-            <img src="data:image/x-icon;base64,{base64.b64encode(open(favicon_path, "rb").read()).decode()}" width="60" height="60">
-        </div>
-        '''
-        st.sidebar.markdown(favicon_html, unsafe_allow_html=True)"""
 
     # Process the image
     circle_image = crop_to_circle("data/pro_image.jpg")
@@ -30,7 +19,6 @@ def render_side_bar():
         </div>
         '''
         st.sidebar.markdown(favicon_html, unsafe_allow_html=True)
-    #st.sidebar.image("data/circle_image.png",width=150, output_format = "PNG")
 
     # Contact Info header
     st.sidebar.write("")
@@ -50,7 +38,7 @@ def render_side_bar():
 
     # Use the custom class to center the header
     st.sidebar.markdown('<div class="centered-header">Youssef Trabelsi</div>', unsafe_allow_html=True)
-
+    st.sidebar.write("")
     st.sidebar.markdown(
         """
         <div style="display: flex; align-items: center; margin-bottom: 10px;">
