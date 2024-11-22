@@ -39,6 +39,7 @@ def render_side_bar():
     # Use the custom class to center the header
     st.sidebar.markdown('<div class="centered-header" style="color: #3395c4;">Youssef Trabelsi</div>', unsafe_allow_html=True)
     st.sidebar.write("")
+    st.sidebar.write("Data engineer | AI specialist")
     st.sidebar.markdown(
         """
         <div style="display: flex; align-items: center; margin-bottom: 10px;">
@@ -55,7 +56,7 @@ def render_side_bar():
                 <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" width="25" />
             </a>
             <img src="https://img.icons8.com/ios-filled/50/000000/worldwide-location.png" width="20"/>
-            <span>Île-de-France, France</span>
+            <span>Paris, France</span>
         </div>
 
         """, unsafe_allow_html=True

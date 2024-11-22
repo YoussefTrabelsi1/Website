@@ -75,9 +75,27 @@ def render_projects():
         }
     ]
 
-    # Display projects
-    display_projects(projects1)
+    def display_projects_streamlit(Projects):
+        col1,col2=st.columns(2)
+        with col1:
+            with st.container():
+                st.write(Projects[0]['name'])
+                st.image(Projects[0]['image_path'])
+                st.write(Projects[0]["description"])
+                st.write(Projects[0]["skills"])
+                st.write(Projects[0]["languages"])
 
+        with col2:
+            with st.container():
+                st.write(Projects[1]['name'])
+                st.image(Projects[1]['image_path'])
+                st.write(Projects[1]["description"])
+                st.write(Projects[1]["skills"])
+                st.write(Projects[1]["languages"])
+
+    # Display projects
+    #display_projects(projects1)
+    display_projects_streamlit(projects1)
     projects2=[{
         'name': 'Flash Cards',
         'image_path': 'data/projects/flashcards.webp',  # Replace with actual image path
