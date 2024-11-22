@@ -9,26 +9,29 @@ def render_projects():
         {
             'name': 'Detecting Periapical Lesions on Dental X-rays',
             'image_path': 'data/projects/Lesions.jpg',
-            'description': 'Developed an AI algorithm to detect peri-apical lesions in dental panoramic radiographs using convolutional neural networks (CNN) and YOLOv8 architecture. Achieved a remarkable 99% accuracy after extensive training and model optimization.',
-            'skills': 'Deep learning, CNNs, YOLOv8, Computer vision, AI, Data Science, Project management, GitHub',
-            'languages': 'Python, TensorFlow, yolov8, Bash',
+            'problem_statement': 'Dental panoramic radiographs often fail to clearly reveal peri-apical lesions, leading to diagnostic errors. An AI-driven solution was needed to improve diagnostic accuracy.',
+            'role': 'Designed and trained CNN models; Optimized YOLOv8 for object detection; Conducted extensive data preprocessing and testing; Managed project workflow and results analysis.',
+            'tools': 'Python, TensorFlow, YOLOv8, Bash, GitHub',
+            'description': 'Developed an AI algorithm to detect peri-apical lesions in dental panoramic radiographs using CNNs and YOLOv8 architecture. Achieved a remarkable 99% accuracy.',
         },
         {
-            'name': 'Drug side effects and disease search engine',
+            'name': 'Drug Side Effects and Disease Search Engine',
             'image_path': 'data/projects/gmd_research_result.png',
+            'problem_statement': 'Patients often struggle to find comprehensive information linking symptoms to diseases or medications. A scalable, interactive solution was required to manage vast amounts of medical data.',
+            'role': 'Designed a scalable database architecture; Implemented Hadoop and Spark for data processing; Developed a user interface using JavaFX; Integrated Python scripts for data mapping and results generation.',
+            'tools': 'Java, Python, Hadoop, Apache Spark, JavaFX, GitHub',
             'description': 'Developed a medical search engine with a JavaFX interface for identifying diseases and medications linked to symptoms. Used Hadoop and Apache for large-scale data management.',
-            'skills': 'Big data, Hadoop, Apache Spark, JavaFX, Python, Data mapping, GitHub, Algorithms, Database design',
-            'languages': 'Java, Python, Hadoop',
         },
-        
         {
             'name': 'Facies Classification by Machine Learning',
             'image_path': 'data/projects/Facies.webp',
-            'description': 'Built a machine learning model to classify geological facies using data from wells. Applied Random Forest and PCA using Scikit-learn, achieving 61.4% accuracy on complex geological data.',
-            'skills': 'Data modeling, Random Forest, PCA, Data science, Project management, GitHub, Supervised learning',
-            'languages': 'Python, Scikit-learn',
+            'problem_statement': 'Geologists faced challenges in classifying geological facies accurately due to complex datasets from oil wells. A machine learning model was needed for better predictive accuracy.',
+            'role': 'Engineered data preprocessing pipelines; Developed classification models using Random Forest; Applied PCA for dimensionality reduction; Evaluated and refined models for better accuracy.',
+            'tools': 'Python, Scikit-learn, GitHub',
+            'description': 'Built a machine learning model to classify geological facies using data from wells. Applied Random Forest and PCA, achieving 61.4% accuracy on complex geological data.',
         }
     ]
+
 
     
 

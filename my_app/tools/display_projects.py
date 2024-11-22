@@ -53,30 +53,25 @@ def display_projects(projects):
 
 # Function to display projects
 def display_projects_streamlit(projects):
-        num_projects = len(projects)
-        for i in range(0, num_projects - 1, 2):  # Display projects in pairs
-            cols = st.columns(2)
-            for col, project in zip(cols, projects[i:i+2]):
-                with col:
-                    st.container()
-                    st.subheader(project['name'])
-                    st.image(project['image_path'])
-                    st.write(project['description'])
-                    st.write("**Skills learned:**")
-                    st.write(project['skills'])
-                    st.write("**Languages learned:**")
-                    st.write(project['languages'])
-
-        # Check if odd number of projects and display the last one
-        if num_projects % 2 != 0:
-            last_project = projects[-1]
-            st.container()
-            st.subheader(last_project['name'])
-            col1,col2,col3=st.columns(3)
+    for project in projects:
+        st.container()
+        st.subheader(project['name'])
+        if "facies" in project['image_path'].lower():
+            col1,col2=st.columns(2)
+            with col1:
+                st.image("data/projects/Facies.webp")
             with col2:
-                st.image(last_project['image_path'])
-            st.write(last_project['description'])
-            st.write("**Skills learned:**")
-            st.write(last_project['skills'])
-            st.write("**Languages learned:**")
-            st.write(last_project['languages'])
+                st.image("data/projects/Facies.png",width=270)
+        else:
+            st.image(project['image_path'])
+        st.write(f"**Problem Statement:** {project['problem_statement']}")
+        st.write("**My Role:**")
+        #st.markdown("<ul>", unsafe_allow_html=True)
+        for role_point in project['role'].split(';'):
+            st.markdown(f"<li>{role_point.strip()}</li>", unsafe_allow_html=True)
+        st.markdown("</ul>", unsafe_allow_html=True)
+        st.write(f"**Tools/Technologies Used:** {project['tools']}")
+        st.write("**Description:**")
+        st.write(project['description'])
+        st.markdown("---")  # Add a horizontal divider between projects
+
