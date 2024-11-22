@@ -36,8 +36,7 @@ def render_exp():
     ]
 
     # Streamlit Layout
-    st.title("Experiences :")
-
+    st.markdown(f'<h1 style="color: #3395c4;">Experiences :</h1>', unsafe_allow_html=True)
     for exp in experiences:
         st.subheader(f"{exp['role']} at {exp['company']}")
         st.write(f"**Duration:** {exp['duration']}")

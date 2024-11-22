@@ -37,7 +37,7 @@ def render_side_bar():
     )
 
     # Use the custom class to center the header
-    st.sidebar.markdown('<div class="centered-header">Youssef Trabelsi</div>', unsafe_allow_html=True)
+    st.sidebar.markdown('<div class="centered-header" style="color: #3395c4;">Youssef Trabelsi</div>', unsafe_allow_html=True)
     st.sidebar.write("")
     st.sidebar.markdown(
         """
@@ -51,7 +51,7 @@ def render_side_bar():
             <a href="mailto:yousseftrabelsi250@gmail.com" target="_blank" style="margin-right: 20px;">
                 <img src="https://img.icons8.com/ios-filled/50/000000/mail.png" width="25" />
             </a>
-            <a href="tel:+33 6 48 96 52 89" target="_blank" style="margin-right: 20px;>
+            <a href="tel:+33 6 48 96 52 89" target="_blank" style="margin-right: 10px;>
                 <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" width="25" />
             </a>
             <img src="https://img.icons8.com/ios-filled/50/000000/worldwide-location.png" width="20"/>
@@ -61,8 +61,7 @@ def render_side_bar():
         """, unsafe_allow_html=True
     )
 
-
-    st.sidebar.header("About me")
+    st.sidebar.markdown(f'<h2 style="color: #3395c4;">About me :</h2>', unsafe_allow_html=True)
     st.sidebar.write("""
             I am a passionate and adaptable data enthusiast, eager to embrace new tools and technologies. 
             Motivated by technical challenges, I strive to continuously learn and contribute to dynamic teams 
@@ -72,8 +71,7 @@ def render_side_bar():
     skills = ["SQL", "Python", "Snowflake", "DBT", "Spark", "Sampling techniques","AI", "Data Science", "Project management", "GitHub", "Java", "R"]
 
     # Sidebar
-    st.sidebar.markdown("### Skills")
-
+    st.sidebar.markdown(f'<h2 style="color: #3395c4;">Skills :</h2>', unsafe_allow_html=True)
     # Create columns for the skills
     st.sidebar.markdown("SQL | Python | Snowflake | DBT | Spark | AI | Data Science | Project management | GitHub | Java | R")
 

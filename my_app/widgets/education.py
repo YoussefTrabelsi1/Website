@@ -27,7 +27,7 @@ def render_education():
     ]
 
     # Streamlit Layout
-    st.title("Education")
+    st.markdown(f'<h1 style="color: #3395c4;">Education :</h1>', unsafe_allow_html=True)
 
     for edu in education:
         st.subheader(edu["degree"])

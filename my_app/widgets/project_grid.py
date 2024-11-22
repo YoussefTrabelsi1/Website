@@ -54,7 +54,7 @@ def display_projects(projects):
 
 def render_projects():
 
-    st.title("Projects : ")
+    st.markdown(f'<h1 style="color: #3395c4;">Projects :</h1>', unsafe_allow_html=True)
 
     projects1 = [
         {
