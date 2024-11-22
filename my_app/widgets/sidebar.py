@@ -51,7 +51,7 @@ def render_side_bar():
             <a href="mailto:yousseftrabelsi250@gmail.com" target="_blank" style="margin-right: 20px;">
                 <img src="https://img.icons8.com/ios-filled/50/000000/mail.png" width="25" />
             </a>
-            <a href="tel:+33 6 48 96 52 89" target="_blank" style="margin-right: 10px;>
+            <a href="tel:+33 6 48 96 52 89" target="_blank" style="margin-right: 0px;>
                 <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" width="25" />
             </a>
             <img src="https://img.icons8.com/ios-filled/50/000000/worldwide-location.png" width="20"/>
