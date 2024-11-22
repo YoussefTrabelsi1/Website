@@ -78,4 +78,6 @@ def render_side_bar():
 
     st.sidebar.markdown(f'<h2 style="color: #3395c4;">Certifications :</h2>', unsafe_allow_html=True)
     st.sidebar.markdown("SnowPro Core Exam : obtained 06/2024")
+    st.sidebar.write("")
+    st.sidebar.write("")
 

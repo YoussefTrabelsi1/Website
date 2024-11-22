@@ -1,7 +1,7 @@
 import streamlit as st
 
 def render_contact():
-    st.header("Contact Me")
+    st.markdown('<h1 style="color: #3395c4;">Contact Me</h1>', unsafe_allow_html=True)
     
     # Displaying contact information
     st.subheader("You can reach me at:")
