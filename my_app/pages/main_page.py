@@ -8,13 +8,7 @@ from my_app.widgets.contact import render_contact
 def render_main_page():
     
     render_side_bar()
-    
-
-    
-
-    # Displaying the grid of projects using the widget
     render_projects()
     render_exp()
     render_education()
-
     render_contact()

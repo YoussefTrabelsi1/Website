@@ -76,3 +76,6 @@ def render_side_bar():
     # Create columns for the skills
     st.sidebar.markdown("SQL | Python | Snowflake | DBT | Spark | AI | Data Science | Project management | GitHub | Java | R")
 
+    st.sidebar.markdown(f'<h2 style="color: #3395c4;">Certifications :</h2>', unsafe_allow_html=True)
+    st.sidebar.markdown("SnowPro Core Exam : obtained 06/2024")
+
