@@ -2,7 +2,7 @@ import streamlit as st
 from my_app.tools.display_projects import display_projects_streamlit
 
 def render_projects():
-    st.markdown('<h1 style="color: #3395c4;">Projects :</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 style="color: #3395c4;">Personal projects :</h1>', unsafe_allow_html=True)
 
     # Consolidated list of projects
     projects = [
