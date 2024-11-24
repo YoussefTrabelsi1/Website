@@ -21,6 +21,18 @@ def render_exp():
             ]
         },
         {
+            "company": "CHR Metz-Thionville",
+            "role": "IA Engineer",
+            "duration": "September 2023 - Febrauary 2024 (6 months)",
+            "location": "Nancy, France",
+            "responsibilities": [
+                "Designed and trained CNN models; Optimized YOLOv8 for object detection",
+                "Conducted extensive data preprocessing and testing",
+                "Managed project workflow and results analysis"
+                "Developed an AI algorithm to detect peri-apical lesions in dental panoramic radiographs using CNNs and YOLOv8 architecture. Achieved a remarkable 99% accuracy."
+            ]
+        },
+        {
             "company": "Banque Populaire Grand Ouest",
             "role": "Assistant Engineer",
             "duration": "May 2023 - August 2023 (4 months)",
@@ -33,6 +45,7 @@ def render_exp():
                 "Enhanced banking data reliability, enabling informed decision-making."
             ]
         }
+        
     ]
 
     # Streamlit Layout
