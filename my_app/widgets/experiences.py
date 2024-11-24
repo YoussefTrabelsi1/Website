@@ -28,7 +28,7 @@ def render_exp():
             "responsibilities": [
                 "Designed and trained CNN models; Optimized YOLOv8 for object detection",
                 "Conducted extensive data preprocessing and testing",
-                "Managed project workflow and results analysis"
+                "Managed project workflow and results analysis",
                 "Developed an AI algorithm to detect peri-apical lesions in dental panoramic radiographs using CNNs and YOLOv8 architecture. Achieved a remarkable 99% accuracy."
             ]
         },
