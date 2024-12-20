@@ -17,7 +17,7 @@ def render_projects():
         
         {
         'name': 'Image Colorization using Generative Adversarial Networks (GAN) and U-Net',
-        'image_path': 'data\projects\model rows.png',
+        'image_path': 'data\projects\model_rows.png',
         'problem_statement': 'Grayscale images lack the rich color information needed for realistic visual interpretations. A robust AI approach was required to convert grayscale images into vivid and plausible color images, combining GANs for realistic data generation and U-Net for precise spatial feature extraction.',
         'role': 'Implemented a GAN-based colorization model using a U-Net architecture; Preprocessed and normalized 10,000 images from the COCO dataset; Trained the model using adversarial and L1 loss; Analyzed model performance, identified artifacts, and refined training strategies with GPU acceleration on Google Colab.',
         'tools': 'Python, TensorFlow/PyTorch, COCO Dataset, Google Colab, GPU Acceleration',
