@@ -63,7 +63,11 @@ def display_projects_streamlit(projects):
             with col2:
                 st.image("data/projects/Facies.png",width=270)
         else:
-            st.image(project['image_path'])
+            try:
+                st.image(project['image_path'])
+            except FileNotFoundError:
+                print("Image not found")
+        
         st.write(f"**Problem Statement:** {project['problem_statement']}")
         st.write("**My Role:**")
         #st.markdown("<ul>", unsafe_allow_html=True)
