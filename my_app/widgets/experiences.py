@@ -9,6 +9,7 @@ def render_exp():
             "duration": "March 2024 - November 2024 (9 months)",
             "location": "Paris, Île-de-France, France",
             "Description":"Designed and Depolyed an innovative data management solutions for a wealth management client via POCs using Snowflake, dbt and Python, optimizing business processes through automation and centralization of data flows.",
+            "Skills":"Python | SQL | Snowflake | DBT | Azure Blob Storage | Pandas | Camelot | SAS | JSON | streamlit | Matplotlib",
             "responsibilities": [
                 "Integrated into Azure Blob storage and transformed using Snowflake of 100 types of partner slips via Pandas and Camelot to centralize asset updates in 21 branches",
                 "Built ELT/ETL pipelines with DBT to harmonize multi-source data and ensure historization of customer flows",
@@ -31,6 +32,7 @@ def render_exp():
             "duration": "September 2023 - Febrauary 2024 (6 months)",
             "location": "Nancy, France",
             "Description":"Trained an AI model that uses YOLO layout and developed an automated training pipelines for medical image analysis, with a multi-model predictive interface and improved performance.",
+            "Skills":"Python | AI | Yolo | DICOM ",
             "responsibilities": [
                 "Optimized YOLO models, improving accuracy from 87% to 91%, reducing model size by 25% and accelerating processing to 7 seconds per file",
                 "Created pipelines to automate DICOM data management and conversion, reducing preparation time by 40%",
@@ -44,6 +46,7 @@ def render_exp():
             "duration": "May 2023 - August 2023 (4 months)",
             "location": "Nantes, Pays de la Loire, France",
             "Description": "Developed data auditing scripts in Python/Shell and automation of large file processing to improve data quality and reduce processing times.",
+            "Skills":"Python | Bash | Shell | Numpy | Pandas",
             "responsibilities": [
                 "Created and optimized data audit scripts (Python, Shell) to compare, validate and audit customer CSV/Excel files",
                 "Implemented descriptive calculations (Pandas, NumPy) to detect anomalies and reinforce data quality",
@@ -62,8 +65,8 @@ def render_exp():
         st.write(f"**Location:** {exp['location']}")
         st.write(f"**Description:**")
         st.write(f"{exp['Description']}")
+        st.write(f"**Skills:** {exp['Skills']}")
         st.write("**Key Responsibilities:**")
         for responsibility in exp['responsibilities']:
             st.write(f"- {responsibility}")
-        
         st.markdown("---")
