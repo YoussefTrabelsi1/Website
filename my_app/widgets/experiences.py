@@ -8,6 +8,7 @@ def render_exp():
             "role": "Consultant Data",
             "duration": "March 2024 - November 2024 (9 months)",
             "location": "Paris, Île-de-France, France",
+            "Description":"Designed and Depolyed an innovative data management solutions for a wealth management client via POCs using Snowflake, dbt and Python, optimizing business processes through automation and centralization of data flows.",
             "responsibilities": [
                 "Optimized Data Processes with dbt, Snowflake, and GitHub.",
                 "Developed reusable data transformations in Snowflake using dbt.",
@@ -25,6 +26,7 @@ def render_exp():
             "role": "IA Engineer",
             "duration": "September 2023 - Febrauary 2024 (6 months)",
             "location": "Nancy, France",
+            "Description":"Trained an AI model that uses YOLO layout and developed an automated training pipelines for medical image analysis, with a multi-model predictive interface and improved performance.",
             "responsibilities": [
                 "Designed and trained CNN models; Optimized YOLOv8 for object detection",
                 "Conducted extensive data preprocessing and testing",
@@ -37,6 +39,7 @@ def render_exp():
             "role": "Assistant Engineer",
             "duration": "May 2023 - August 2023 (4 months)",
             "location": "Nantes, Pays de la Loire, France",
+            "Description": "Developed data auditing scripts in Python/Shell and automation of large file processing to improve data quality and reduce processing times.",
             "responsibilities": [
                 "Industrialized and improved critical banking data quality processes.",
                 "Automated data integration using Python and Bash scripts for CSV and Excel analysis.",
@@ -54,6 +57,8 @@ def render_exp():
         st.subheader(f"{exp['role']} at {exp['company']}")
         st.write(f"**Duration:** {exp['duration']}")
         st.write(f"**Location:** {exp['location']}")
+        st.write(f"**Description:**")
+        st.write(f"{exp['Description']}")
         st.write("**Key Responsibilities:**")
         for responsibility in exp['responsibilities']:
             st.write(f"- {responsibility}")
