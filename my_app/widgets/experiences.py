@@ -10,15 +10,19 @@ def render_exp():
             "location": "Paris, Île-de-France, France",
             "Description":"Designed and Depolyed an innovative data management solutions for a wealth management client via POCs using Snowflake, dbt and Python, optimizing business processes through automation and centralization of data flows.",
             "responsibilities": [
-                "Optimized Data Processes with dbt, Snowflake, and GitHub.",
-                "Developed reusable data transformations in Snowflake using dbt.",
-                "Automated data mapping with Python, reducing errors and enhancing workflows.",
-                "Designed data pipelines for reliable dataset ingestion and transformation.",
-                "Implemented centralized and scalable storage solutions with Snowflake.",
-                "Collaborated via GitHub for version control and seamless teamwork.",
-                "Automated PDF to Excel conversion scripts achieving 99% accuracy.",
-                "Built a SAS code parser to analyze and optimize transformation processes.",
-                "Created a dynamic Streamlit app for real-time metric visualization."
+                "Integrated into Azure Blob storage and transformed using Snowflake of 100 types of partner slips via Pandas and Camelot to centralize asset updates in 21 branches",
+                "Built ELT/ETL pipelines with DBT to harmonize multi-source data and ensure historization of customer flows",
+                "Standardized data from 100 partners via optimized SQL mapping scripts for internal agency dashboards, generating consolidated views",
+                "Converted Excel, CSV and PDF files into standardized CSV files with a 99% success rate, improving ingestion into Snowflake",
+                "Developed a Streamlit application generating reports through automated calculations and dynamic graphs",
+                "Reduced loading time for complex queries by 50% using partitioning and indexing in Snowflake",
+                "Integrated GPT-4 API for transcribing appointments and generating JSON-structured customer forms",
+                "Developed a SAS parser in Python to identify key code structures for reliable and complete migrations",
+                "Implemented an algorithm calculating the complexity of migrations from the parser results to accurately estimate the effort required",
+                "Designed a Streamlit application for SAS project submission and visualization of dependencies via granular analysis",
+                "Integrated dynamic graphics with Matplotlib and Pyplot to display complexity metrics and facilitate technical decision-making"
+
+
             ]
         },
         {
@@ -28,10 +32,10 @@ def render_exp():
             "location": "Nancy, France",
             "Description":"Trained an AI model that uses YOLO layout and developed an automated training pipelines for medical image analysis, with a multi-model predictive interface and improved performance.",
             "responsibilities": [
-                "Designed and trained CNN models; Optimized YOLOv8 for object detection",
-                "Conducted extensive data preprocessing and testing",
-                "Managed project workflow and results analysis",
-                "Developed an AI algorithm to detect peri-apical lesions in dental panoramic radiographs using CNNs and YOLOv8 architecture. Achieved a remarkable 99% accuracy."
+                "Optimized YOLO models, improving accuracy from 87% to 91%, reducing model size by 25% and accelerating processing to 7 seconds per file",
+                "Created pipelines to automate DICOM data management and conversion, reducing preparation time by 40%",
+                "Benchmarked three models (YOLO, U-Net, DETR) on 224 dental radiographs, achieving maximum accuracy of 99.9% with YOLO",
+                "Developed a predictive multi-model Python interface with configurable logging system for performance monitoring and optimized maintenance",
             ]
         },
         {
@@ -41,11 +45,10 @@ def render_exp():
             "location": "Nantes, Pays de la Loire, France",
             "Description": "Developed data auditing scripts in Python/Shell and automation of large file processing to improve data quality and reduce processing times.",
             "responsibilities": [
-                "Industrialized and improved critical banking data quality processes.",
-                "Automated data integration using Python and Bash scripts for CSV and Excel analysis.",
-                "Created data visualizations with Matplotlib for clear and actionable insights.",
-                "Used Visual Studio Code to maintain an efficient development environment.",
-                "Enhanced banking data reliability, enabling informed decision-making."
+                "Created and optimized data audit scripts (Python, Shell) to compare, validate and audit customer CSV/Excel files",
+                "Implemented descriptive calculations (Pandas, NumPy) to detect anomalies and reinforce data quality",
+                "Reduced processing time for large files from 5 minutes to 10 seconds via optimized solutions in Shell/Python and Pandas",
+                "Contributed to sprints and Scrum meetings to coordinate and prioritize tickets, tracking tasks and deliveries",
             ]
         }
         
@@ -62,4 +65,5 @@ def render_exp():
         st.write("**Key Responsibilities:**")
         for responsibility in exp['responsibilities']:
             st.write(f"- {responsibility}")
+        
         st.markdown("---")
