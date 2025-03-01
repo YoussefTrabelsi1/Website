@@ -6,7 +6,7 @@ def render_exp():
         {
             "company": "SILAMIR GROUP",
             "role": "Data Consultant : Data Engineer",
-            "duration": "February 2024 - December 2024 (9 months)",
+            "duration": "February 2024 - December 2024 (11 months)",
             "location": "Paris, Île-de-France, France",
             "Description":"Designed and Depolyed an innovative data management solutions for a wealth management client via POCs using Snowflake, dbt and Python, optimizing business processes through automation and centralization of data flows.",
             "Skills":"Python | SQL | Snowflake | DBT | Azure Blob Storage | Pandas | Camelot | SAS | JSON | streamlit | Matplotlib",
@@ -28,7 +28,7 @@ def render_exp():
         },
         {
             "company": "CHR Metz-Thionville",
-            "role": "IA Engineer",
+            "role": "AI Engineer / Data Scientist",
             "duration": "September 2023 - Febrauary 2024 (6 months)",
             "location": "Nancy, France",
             "Description":"Trained an AI model that uses YOLO layout and developed an automated training pipelines for medical image analysis, with a multi-model predictive interface and improved performance.",
