@@ -42,8 +42,8 @@ def render_exp():
         },
         {
             "company": "Banque Populaire Grand Ouest",
-            "role": "Assistant Engineer",
-            "duration": "May 2023 - August 2023 (4 months)",
+            "role": "Data Analyst / Data Engineer",
+            "duration": "April 2023 - September 2023 (6 months)",
             "location": "Nantes, Pays de la Loire, France",
             "Description": "Developed data auditing scripts in Python/Shell and automation of large file processing to improve data quality and reduce processing times.",
             "Skills":"Python | Bash | Shell | Numpy | Pandas",
