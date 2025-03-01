@@ -6,7 +6,7 @@ def render_exp():
         {
             "company": "SILAMIR GROUP",
             "role": "Data Consultant : Data Engineer",
-            "duration": "March 2024 - November 2024 (9 months)",
+            "duration": "February 2024 - December 2024 (9 months)",
             "location": "Paris, Île-de-France, France",
             "Description":"Designed and Depolyed an innovative data management solutions for a wealth management client via POCs using Snowflake, dbt and Python, optimizing business processes through automation and centralization of data flows.",
             "Skills":"Python | SQL | Snowflake | DBT | Azure Blob Storage | Pandas | Camelot | SAS | JSON | streamlit | Matplotlib",
