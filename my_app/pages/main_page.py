@@ -7,7 +7,7 @@ import streamlit as st
 
 def render_main_page():
     # Navigation Tabs
-    tabs = st.tabs(["Projects", "Experiences", "Education", "Contact"])
+    tabs = st.tabs(["Experiences", "Projects", "Education", "Contact"])
     render_side_bar()
     # Dynamic rendering of content
     
