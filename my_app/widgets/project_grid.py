@@ -14,7 +14,6 @@ def render_projects():
             'tools': 'Python, TensorFlow, YOLOv8, Bash, GitHub',
             'description': 'Developed an AI algorithm to detect peri-apical lesions in dental panoramic radiographs using CNNs and YOLOv8 architecture. Achieved a remarkable 99% accuracy.',
         },
-        
         {
         'name': 'Image Colorization using Generative Adversarial Networks (GAN) and U-Net',
         'image_path': 'data/projects/model_rows.png',
@@ -67,8 +66,6 @@ def render_projects():
 
     ]
 
-
-    
 
     # Display all projects
     display_projects_streamlit(projects)
