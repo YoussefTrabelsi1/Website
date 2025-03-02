@@ -1,7 +1,7 @@
 import streamlit as st
 
 def render_exp():
-    # Experience Data
+    # Experiences
     experiences = [
         {
             "company": "SILAMIR GROUP",
