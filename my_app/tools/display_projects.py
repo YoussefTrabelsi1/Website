@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+
 def display_projects(projects):
     # CSS styling
     css="""<style>
