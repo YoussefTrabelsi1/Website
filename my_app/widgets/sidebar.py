@@ -6,7 +6,6 @@ from my_app.tools.edit_image import crop_to_circle
 
 def render_side_bar():
 
-
     # Process the image
     circle_image = crop_to_circle("data/pro_image.jpg")
 
