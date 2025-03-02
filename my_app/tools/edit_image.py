@@ -2,6 +2,7 @@ from PIL import Image, ImageDraw
 import streamlit as st
 
 def crop_to_circle(image_path, center=None, radius=None):
+    
     # Open the image
     img = Image.open(image_path).convert("RGBA")
     width, height = img.size
