@@ -25,7 +25,6 @@ def render_education():
             "description": "A rigorous preparatory program focusing on mathematics and physics to prepare for competitive entrance exams to top-tier engineering and technical schools in France."
         },
     ]
-
     # Streamlit Layout
     st.markdown(f'<h1 style="color: #3395c4;">Education :</h1>', unsafe_allow_html=True)
     for edu in education:
