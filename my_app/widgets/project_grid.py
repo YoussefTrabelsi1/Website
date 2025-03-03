@@ -66,6 +66,5 @@ def render_projects():
 
     ]
 
-
     # Display all projects
     display_projects_streamlit(projects)
