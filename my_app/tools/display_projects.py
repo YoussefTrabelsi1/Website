@@ -29,7 +29,6 @@ def display_projects(projects):
     image_html = f"""
     {css}
     <div class='container'>"""
-    
     # Loop through projects and add them to the HTML content
     image_html += f"""
         <div class="col1">
