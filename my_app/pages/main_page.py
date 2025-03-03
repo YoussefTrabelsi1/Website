@@ -9,8 +9,8 @@ def render_main_page():
     # Navigation Tabs
     tabs = st.tabs(["Experiences", "Projects", "Education", "Contact"])
     render_side_bar()
+
     # Dynamic rendering of content
-    
     with tabs[0]:
         render_exp()
     with tabs[1]:
