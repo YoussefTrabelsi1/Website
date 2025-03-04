@@ -9,7 +9,6 @@ def crop_to_circle(image_path, center=None, radius=None):
     # Default to center of the image
     if center is None:
         center = (width*1.006 // 2, height*1.1 // 2)
-
     # Default radius
     if radius is None:
         radius = min(width, height) // 2
