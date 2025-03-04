@@ -56,7 +56,6 @@ def display_projects_streamlit(projects):
     for project in projects:
         st.container()
         st.subheader(project['name'])
-        
         if "facies" in project['image_path'].lower():
             col1,col2=st.columns(2)
             with col1:
