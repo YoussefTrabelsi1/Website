@@ -63,7 +63,6 @@ def render_projects():
             'description': 'Built a machine learning model to classify geological facies using data from wells. Applied Random Forest and PCA, achieving 61.4% accuracy on complex geological data.',
         },
 
-
     ]
 
     # Display all projects
