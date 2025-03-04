@@ -1,7 +1,6 @@
 import streamlit as st
 
 def render_exp():
-    
     # Experiences
     experiences = [
         {
