@@ -7,6 +7,14 @@ def render_projects():
     # Consolidated list of projects
     projects = [
         {
+        'name': 'Online Retail ETL Pipeline & Analysis',
+        'image_path': 'data/projects/OnlineRetail_ETL.png',  # You can create a simple diagram or screenshot as this image
+        'problem_statement': 'The company needed to clean and analyze a year’s worth of transactional data to gain insights into customer behavior, supplier performance, and sales trends across regions.',
+        'role': 'Designed a modular ETL pipeline using OOP principles; Implemented robust data cleaning with logging and unit tests; Processed business logic for supplier and continent-level analytics; Visualized insights in a Jupyter notebook.',
+        'tools': 'Python, Pandas, Parquet, Matplotlib, Seaborn, Unittest, GitHub',
+        'description': 'Built a full end-to-end ETL pipeline for an e-commerce dataset. Cleaned and transformed transactional data, enriched it with supplier and continent mapping, and saved it in optimized Parquet format. Conducted analysis in a notebook to uncover monthly trends, peak hours, top countries and products, and cancellation patterns.',
+        },
+        {
             'name': 'Detecting Periapical Lesions on Dental X-rays',
             'image_path': 'data/projects/Lesions.jpg',
             'problem_statement': 'Dental panoramic radiographs often fail to clearly reveal peri-apical lesions, leading to diagnostic errors. An AI-driven solution was needed to improve diagnostic accuracy.',
@@ -62,6 +70,8 @@ def render_projects():
             'tools': 'Python, Scikit-learn, GitHub',
             'description': 'Built a machine learning model to classify geological facies using data from wells. Applied Random Forest and PCA, achieving 61.4% accuracy on complex geological data.',
         },
+        
+
 
     ]
 
