@@ -8,7 +8,7 @@ def render_projects():
     projects = [
         {
         'name': 'Online Retail ETL Pipeline & Analysis',
-        'image_path': 'data/projects/OnlineRetail_ETL.png',  # You can create a simple diagram or screenshot as this image
+        'image_path': 'data/projects/ETL.webp',  # You can create a simple diagram or screenshot as this image
         'problem_statement': 'The company needed to clean and analyze a year’s worth of transactional data to gain insights into customer behavior, supplier performance, and sales trends across regions.',
         'role': 'Designed a modular ETL pipeline using OOP principles; Implemented robust data cleaning with logging and unit tests; Processed business logic for supplier and continent-level analytics; Visualized insights in a Jupyter notebook.',
         'tools': 'Python, Pandas, Parquet, Matplotlib, Seaborn, Unittest, GitHub',
